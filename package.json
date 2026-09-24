@@ -1,0 +1,29 @@
+{
+  "name": "networkdog",
+  "version": "1.0.0",
+  "description": "Windows 网络看门狗：主网口断电/断网时通过 PushPlus 推送微信告警",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "pkg server.js --targets node18-win-x64 --output server.exe",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sumy8023/networkdog.git"
+  },
+  "homepage": "https://github.com/sumy8023/networkdog#readme",
+  "bugs": {
+    "url": "https://github.com/sumy8023/networkdog/issues"
+  },
+  "keywords": [
+    "network",
+    "watchdog",
+    "failover",
+    "pushplus",
+    "windows",
+    "monitoring"
+  ],
+  "author": "sumy8023",
+  "license": "MIT"
+}
